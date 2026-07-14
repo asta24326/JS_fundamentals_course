@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Advanced bools</title>
+	</head>
+	<body>
+		<script>
+
+			// TERNARY OPERATOR
+			let result = 0 ? 'truthy' : 'falsy';
+			console.log(result);
+
+			result = 5 ? 'truthy' : 'falsy';
+			console.log(result);
+			
+			// GUARD OPERATOR
+			// checks early for the first expression and doesn't move on
+			false && console.log('hello');
+
+			// here if first expression is 0, then it will write result of it to message variable
+			const message = 0 && 'hello';
+			console.log(message);
+
+			// DEFAULT OPERATOR
+			//here if currency is EUR, then will keep it,
+			// if undefined it will be written as USD
+			const currency = 'EUR' || 'USD';
+
+		</script>
+	</body>
+</html>
