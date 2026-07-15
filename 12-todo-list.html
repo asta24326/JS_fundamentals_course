@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Arrays and loops</title>
+
+		<link 
+			rel="stylesheet"
+			href="styles/12-todo-list.css"
+		>
+
+	</head>
+	<body>
+		<p> TODO list</p>
+
+		<div class="todo-input-grid">
+			<input 
+				placeholder="Todo name"
+				class="js-name-input name-input"
+			>
+			<input 
+				type="date"
+				class="js-date-input due-date-input"
+			>
+			<button 
+				onclick="
+					addTodo();
+				"
+				class="add-todo-button"
+			>Add</button>
+		</div>
+		<!-- Div - is a container 
+			Div - doesn't have any default styling 
+		-->
+		<div class="js-todo-list todo-grid">
+			text
+		</div>
+
+		<script src="scripts/12-todo-list.js"></script>
+
+
+	</body>
+</html>
