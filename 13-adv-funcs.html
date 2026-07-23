@@ -62,6 +62,34 @@
 			// // passing a function into another function
 			// // is called a "callback function"
 
+			// [
+			// 	'make dishes',
+			// 	'fuck',
+			// 	'sleep'
+			// ].forEach(function(value, index) {
+			// 	console.log(value);
+			// 	console.log(index);
+			// });
+
+			const regularFunction = function(param, param2) {
+				console.log('hello regular');
+				return 5;
+			};
+			regularFunction();
+
+			const arrowFunction = (param, param2) => {
+				console.log('hello arrow');
+				return 5;
+			};
+			arrowFunction();
+
+			const oneParam = (param) => {
+				console.log(param + 1);
+			};
+			oneParam(2);
+
+			const oneLine = () => 2 + 3;
+			console.log(oneLine());
 			
 
 
