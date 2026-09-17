@@ -26,6 +26,10 @@ A fully functional, interactive e-commerce web application inspired by Amazon. B
 - **Jasmine** — Automated testing framework
 - **Fetch API** — HTTP requests and backend communication
 
+- <img width="1382" height="823" alt="Screenshot 2026-09-17 at 12 47 20" src="https://github.com/user-attachments/assets/d76aa5ac-a9d1-43bc-9c60-81f949fa46d3" /><img width="1028" height="694" alt="Screenshot 2026-09-17 at 12 47 26" src="https://github.com/user-attachments/assets/fb841ae7-7e5a-424b-9d65-e93cda290fee" />
+
+
+
 ## 🚦 Running the Project
 
 ### 1. Clone the Repository
